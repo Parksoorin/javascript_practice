@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="inoutput.js"></script>
+</head>
+<body>
+    <script>
+        // prompt 창을 통한 입력문(질문, 기본값) -> 문자열
+        var name = prompt("이름을 입력하세요", "이름");
+        alert(name);
+
+        // 확인, 취소 입력문 -> boolean(true or false)
+        var check = confirm("이름을 출력할까요?");
+
+        if(check){
+            document.write (name);             
+        }
+    </script>
+</body>
+</html>
